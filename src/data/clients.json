@@ -1,19 +1,39 @@
 {
   "reviews": [
     {
-      "review": "Curabitur cursus mattis ligula a maximus pellentesque in purus malesuada, pharetra eros id, malesuada diam vivamus eu gravida lacus nulla at consectetur quam vestibulum ac arcu sed.",
-      "name": "Jane Williams",
-      "position": "DESIGNER"
+      "review": "I Must say- they are best for a reason.They covered my Sister's wedding functions in such a beautiful way that every time anyone who watches the pictures and especially video can't go away only watching once. So happy that we chose them.",
+      "name": "Riya Simon",
+      "position": " Kochi,Kerala"
     },
     {
-      "review": " Suspendisse enim erat, vehicula sit amet odio eu, congue gravida magna mauris a ex aliquam, ornare tortor sit amet, placerat ante aenean sit amet sem et metus elementum pellentesque.",
-      "name": "John Smith",
-      "position": "GURU"
+      "review": " Our collaboration with Paper Tape Studios has been exceptionally positive. The design team demonstrated excellent communication, promptly addressing our needs and receptive to feedback.",
+      "name": "Swathy Swaminad",
+      "position": "Kochi,Kerala"
     },
     {
-      "review": "Vivamus quis ante varius, pretium lectus ut, tempor eros maecenas vitae purus lobortis, pulvinar lorem eu, porta elit suspendisse blandit porta magna, nec scelerisque urna viverra lorem gravida.",
-      "name": "Peter Hall",
-      "position": "CEO"
+      "review": "Professional Videography! Their creative approach, professionalism, and attention to detail were exceptional.",
+      "name": "Parvathy Ayyappadas",
+      "position": "ACTRESS"
+    },
+    {
+      "review": "It's having an wonderful experience while shooting with them.. The elegance, style of shooting n perfection is completely phenomenal.",
+      "name": "Jaffrin Jacob",
+      "position": "Kochi,Kerala"
+    },
+    {
+      "review": "Huge thanks to this video production crew for their hard work and commitment to excellence.",
+      "name": "Joseph George",
+      "position": "Kochi,Kerala"
+    },
+    {
+      "review": "Kudos to this awesome video production crew!.",
+      "name": "Noufal Muhammed",
+      "position": "Kochi,Kerala"
+    },
+    {
+      "review": "I'm not usually one to leave reviews, but this team deserves it! They took my ideas and made them shine online. I'm seeing more customers come my way already!.",
+      "name": "Abhishek",
+      "position": "Kochi,Kerala"
     }
   ]
 }

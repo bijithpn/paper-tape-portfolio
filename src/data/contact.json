@@ -10,29 +10,29 @@
 
   "contactInfo": [
     {
-      "title": "WEB",
+      "title": "Email",
       "link": {
-        "to": "https://cocobasic.com",
-        "text": "www.cocobasic.com"
+        "to": "mailto:Hello@Papertape.io",
+        "text": "Hello@Papertape.io"
       }
     },
     {
       "title": "ADDRESS",
       "link": {
-        "to": "https://www.google.rs/maps/place/New+York,+NY,+USA/@40.6971494,-74.2598655,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728",
-        "text": "New York, NY, United States"
+        "to": "https://www.google.co.in/maps/place/57%2F4490-b,+Water+Land+Rd,+Elamkulam,+Ernakulam,+Kerala+682020/@9.9621323,76.3074266,16.75z/data=!4m10!1m2!2m1!1sSomratn,+57%2F627,+Water+land+road+Elamkulam,+Ernakulam,!3m6!1s0x3b0872d065099a85:0x2e95c9d03e4b4316!8m2!3d9.9643051!4d76.3081627!15sCjZTb21yYXRuLCA1Ny82MjcsIFdhdGVyIGxhbmQgcm9hZCBFbGFta3VsYW0sIEVybmFrdWxhbSySARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F11j8sjtm78?entry=ttu",
+        "text": "Somratn, 57/627, Water land road Elamkulam, Kerala,"
       }
     },
     {
       "title": "PHONE",
       "link": {
         "to": "tel:123456789",
-        "text": "+123.456.789"
+        "text": "+91 8113864689"
       }
     },
     {
       "title": "HOURS",
-      "value": "6:00 am – 2:00 am"
+      "value": "9:00 am – 6:00 am"
     }
   ],
 
