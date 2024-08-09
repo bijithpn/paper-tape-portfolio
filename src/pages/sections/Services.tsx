@@ -1,6 +1,6 @@
 // Data
-import { Fragment } from 'react';
-import servicesData from '../../data/services.json';
+import { Fragment } from "react";
+import servicesData from "../../data/services.json";
 
 // -----------------------
 
@@ -16,18 +16,18 @@ function Services() {
 
         <div className="content-wrapper">
           {servicesData.servicesBoxes.map((serv, i) => (
-            <Fragment key={'service-box-' + i}>
+            <Fragment key={"service-box-" + i}>
               <div
                 className={`one_third ${
                   (i + 1) % 3 === 0 ||
                   servicesData.servicesBoxes.length === i + 1
-                    ? 'last'
-                    : ''
+                    ? "last"
+                    : ""
                 }`}
               >
                 <div
                   className={`service-holder ${
-                    serv.bottomSpace ? 'bottom-50' : ''
+                    serv.bottomSpace ? "bottom-50" : ""
                   }`}
                 >
                   <p className="service-num">{serv.order}</p>
