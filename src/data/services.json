@@ -2,42 +2,41 @@
   "id": "01",
   "title": "SERVICES",
   "description": "WHAT WE DO",
-
   "servicesBoxes": [
     {
       "order": "I",
-      "servTitle": "Design",
-      "desc": "Creating clean, impactful designs focused on clarity and aesthetics. Clean, impactful designs.",
+      "servTitle": "Branding & Designs",
+      "desc": "Crafting unique and impactful designs that embody your brand's identity, ensuring a memorable and cohesive visual experience.",
       "bottomSpace": true
     },
     {
       "order": "II",
-      "servTitle": "Development",
+      "servTitle": "Mobile & Web Development",
       "desc": "Harnessing potential in code to build dynamic, efficient applications. Dynamic and efficient applications.",
       "bottomSpace": true
     },
     {
       "order": "III",
-      "servTitle": "Ad Production",
+      "servTitle": "Media Production",
       "desc": "Crafting compelling advertisements with creative storytelling and visual appeal. Compelling ads with creative storytelling.",
       "bottomSpace": true
     },
     {
       "order": "IV",
-      "servTitle": "Marketing",
-      "desc": "Developing strategies to effectively promote and position your brand. Effective brand promotion strategies.",
+      "servTitle": "Concerts & Events",
+      "desc": "Bringing your vision to life with expertly planned and executed concerts and events, ensuring memorable experiences for all attendees.",
       "bottomSpace": true
     },
     {
       "order": "V",
-      "servTitle": "Social",
+      "servTitle": "Digital marketing & Ads",
       "desc": "Creating engaging social media content to build connections and drive engagement. Engaging social media content.",
       "bottomSpace": true
     },
     {
       "order": "VI",
-      "servTitle": "Branding",
-      "desc": "Developing strong, memorable brand identities that resonate with audiences. Strong and memorable brand identities.",
+      "servTitle": "Interior Design & Construction",
+      "desc": "Transforming spaces with innovative design concepts and meticulous construction, creating environments that inspire and function seamlessly.",
       "bottomSpace": true
     }
   ]

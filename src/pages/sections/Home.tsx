@@ -13,8 +13,8 @@ import { Link as ScrollLink } from "react-scroll";
 function Home() {
   return (
     <section id="home" className="section no-page-title">
-      <div className="section-wrapper block content-1170 center-relative">
-        <div className="content-wrapper">
+      {/* <div className="section-wrapper block content-1170 center-relative"> */}
+      {/* <div className="content-wrapper">
           <h1
             className="entry-title big-title"
             dangerouslySetInnerHTML={{
@@ -28,8 +28,8 @@ function Home() {
             }}
           />
           <br />
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       <div
         className="home-full-width"
         style={{
@@ -41,16 +41,21 @@ function Home() {
         }}
       >
         <img className="dots" src={dots} alt="Dots" />
-        <ScrollLink
+        {/* <ScrollLink
           className="button home-button"
           smooth
           to={"contact"}
           offset={-77}
         >
           CONTACT US
-        </ScrollLink>
+        </ScrollLink> */}
         <div className="home-full-width-background">
-          <img className="logo-icon" src={iconLogo} alt="Meelo Icon" />
+          <img
+            className="logo-icon"
+            src={iconLogo}
+            alt="Meelo Icon"
+            height="40vh"
+          />
         </div>
       </div>
     </section>

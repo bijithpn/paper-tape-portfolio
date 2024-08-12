@@ -18,9 +18,9 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content center-relative">
-        <div className="footer-logo">
+        {/* <div className="footer-logo">
           <img src={logo} alt="Meelo" />
-        </div>
+        </div> */}
 
         <div className="footer-mail">
           <a href="mailto:Hello@Papertape.io">Hello@Papertape.io</a>

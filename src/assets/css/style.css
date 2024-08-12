@@ -576,8 +576,8 @@ a.button:hover {
 }
 
 .header-logo img {
-  width: 57px;
-  height: 122px;
+  width: 90px;
+  height: 60px;
 }
 
 .menu-holder {
@@ -843,7 +843,7 @@ img.dots {
 }
 
 img.logo-icon {
-  margin-left: auto;
+  margin-left: 0px;
   margin-right: auto;
   display: block;
   top: 50%;

@@ -9,9 +9,13 @@ import "swiper/css/navigation";
 import clientsData from "../../data/clients.json";
 
 // Images
-import reviewerImg1 from "../../assets/images/clients/quote_image_02.jpg";
-import reviewerImg2 from "../../assets/images/clients/quote_image_03.jpg";
-import reviewerImg3 from "../../assets/images/clients/quote_image_04.jpg";
+import reviewerImg1 from "../../assets/images/clients/quote_image_01.jpg";
+import reviewerImg2 from "../../assets/images/clients/quote_image_02.jpg";
+import reviewerImg3 from "../../assets/images/clients/quote_image_03.jpg";
+import reviewerImg4 from "../../assets/images/clients/quote_image_04.jpg";
+import reviewerImg5 from "../../assets/images/clients/quote_image_05.jpg";
+import reviewerImg6 from "../../assets/images/clients/quote_image_06.jpg";
+import reviewerImg7 from "../../assets/images/clients/quote_image_07.jpg";
 // --> Icons
 import quote from "../../assets/images/quotes_image.png";
 import navLeft from "../../assets/images/nav_left.png";
@@ -20,7 +24,15 @@ import navRight from "../../assets/images/nav_right.png";
 // ---------------
 
 function Clients() {
-  const images: string[] = [reviewerImg1, reviewerImg2, reviewerImg3];
+  const images: string[] = [
+    reviewerImg1,
+    reviewerImg2,
+    reviewerImg3,
+    reviewerImg4,
+    reviewerImg5,
+    reviewerImg6,
+    reviewerImg7,
+  ];
 
   return (
     <div id="clients" className="section no-page-title">
