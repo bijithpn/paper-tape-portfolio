@@ -46,7 +46,7 @@ function Landing() {
         <Clients />
         {/* <News /> */}
         {/* <Skills /> */}
-        <Team />
+        {/* <Team /> */}
         <Milestones />
         <About />
         {/* <Pricing /> */}

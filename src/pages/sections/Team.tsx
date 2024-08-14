@@ -21,6 +21,11 @@ import teamData from "../../data/team.json";
 
 // ------------------
 
+// {
+//       "to": "team",
+//       "text": "Team"
+//     },
+
 function Team() {
   const images: string[] = [member1, member2, member3];
 

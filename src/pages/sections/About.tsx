@@ -1,15 +1,15 @@
 // UI Components
-import { Link as ScrollLink } from 'react-scroll';
+import { Link as ScrollLink } from "react-scroll";
 
 // Images
-import aboutImage from '../../assets/images/about/about_image_01.jpg';
+import aboutImage from "../../assets/images/about/about_image_01.jpg";
 
 // Hooks and Functions
-import { markdownToHTML } from '../../utils/converter';
+import { markdownToHTML } from "../../utils/converter";
 
 // Data
-import aboutData from '../../data/about.json';
-import { Fragment } from 'react';
+import aboutData from "../../data/about.json";
+import { Fragment } from "react";
 
 // ------------------
 
@@ -44,7 +44,7 @@ function About() {
               }}
             />
             {aboutData.paragraphs.map((p, i) => (
-              <Fragment key={'about-paragraph-' + i}>
+              <Fragment key={"about-paragraph-" + i}>
                 <p dangerouslySetInnerHTML={{ __html: markdownToHTML(p) }} />
                 <br />
               </Fragment>
@@ -64,7 +64,7 @@ function About() {
           <div className="one_half last">
             <ul className="timeline-holder">
               {aboutData.events.map((e, i) => (
-                <li key={'about-event-' + i} className="timeline-event">
+                <li key={"about-event-" + i} className="timeline-event">
                   <span className="timeline-circle"></span>
                   <div className="timeline-event-content">{e.content}</div>
                   <div className="timeline-event-date">{e.date}</div>
