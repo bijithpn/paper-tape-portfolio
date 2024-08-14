@@ -12,32 +12,32 @@
       "order": 0,
       "className": "p_one_half",
       "info": {
-        "desc": "INTERIOR",
-        "title": "Light"
+        "desc": "TV Mini Series",
+        "title": "Feny"
       }
     },
     {
       "order": 1,
       "className": "p_one_half",
       "info": {
-        "desc": "BRANDING",
-        "title": "Packaging"
+        "desc": "CREATIVE",
+        "title": "Museum"
       }
     },
     {
       "order": 2,
       "className": "p_one_fourth",
       "info": {
-        "desc": "CREATIVE",
-        "title": "PSD Mockup"
+        "desc": "Brochure Design",
+        "title": "NDSF"
       }
     },
     {
       "order": 3,
       "className": "p_one_fourth",
       "info": {
-        "desc": "ARCHITECTURE",
-        "title": "Pillars"
+        "desc": "Product Photography",
+        "title": "Terracon"
       }
     }
   ]

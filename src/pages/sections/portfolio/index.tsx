@@ -46,14 +46,13 @@ function Portfolio() {
    * Close Opened portfolio item and show the portfolio grid images
    */
   const handlCloseItem = () => {
-    const element: HTMLElement | null =
-      document.getElementById("portfolio-wrapper");
-    if (element) {
-      element.scrollIntoView();
-      console.log("SCROLLED");
-    }
-
-    setPortfolioItem(0);
+    // const element: HTMLElement | null =
+    //   document.getElementById("portfolio-wrapper");
+    // if (element) {
+    //   element.scrollIntoView();
+    //   console.log("SCROLLED");
+    // }
+    // setPortfolioItem(0);
   };
 
   return (
@@ -102,7 +101,7 @@ function Portfolio() {
                     <a
                       className="item-link ajax-portfolio"
                       style={{ position: "relative" }}
-                      onClick={() => handleOpenItem(item.order + 1)}
+                      // onClick={() => handleOpenItem(item.order + 1)}
                     >
                       <img src={images[i]} alt="" />
                       <div className="portfolio-text-holder">
