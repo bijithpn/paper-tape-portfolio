@@ -7,69 +7,70 @@ import iconLogo from "../../assets/images/icon_logo.png";
 import mainImage01 from "../../assets/images/home/main_img_01.jpg";
 import { markdownToHTML } from "../../utils/converter";
 import { Link as ScrollLink } from "react-scroll";
-import { motion } from "framer-motion";
+
 // ---------------
 
 function Home() {
   return (
-    <section className="home-screen">
-      <div className="home-overlay">
-        <div className="home-content">
-          <div className="home-title">
-            <motion.span
-              initial={{ y: 50, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, duration: 1 }}
-            >
-              Paper
-            </motion.span>
-            <motion.span
-              initial={{ y: 50, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{
-                type: "spring",
-                stiffness: 100,
-                duration: 1,
-                delay: 0.2,
-              }}
-            >
-              Tape
-            </motion.span>
-            <motion.span
-              initial={{ y: 50, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{
-                type: "spring",
-                stiffness: 100,
-                duration: 1,
-                delay: 0.4,
-              }}
-            >
-              Studio
-            </motion.span>
-          </div>
-          <motion.p
-            className="home-subtitle"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5, duration: 2 }}
-          >
-            Crafting Stories with Creativity
-          </motion.p>
-          <motion.p
-            className="home-description"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 2.5, duration: 2 }}
-          >
-            We are a team of passionate and skilled professionals who deliver
-            outstanding Web designing, Digital marketing, E-commerce, Branding
-            Solutions, Web applications, Software Development, Mobile apps,
-            Corporate Video shoot, and much more.
-          </motion.p>
-        </div>
-      </div>
-    </section>
+    <></>
+    //   <section className="home-screen">
+    //     <div className="home-overlay">
+    //       <div className="home-content">
+    //         <div className="home-title">
+    //           <motion.span
+    //             initial={{ y: 50, opacity: 0 }}
+    //             animate={{ y: 0, opacity: 1 }}
+    //             transition={{ type: "spring", stiffness: 100, duration: 1 }}
+    //           >
+    //             Paper
+    //           </motion.span>
+    //           <motion.span
+    //             initial={{ y: 50, opacity: 0 }}
+    //             animate={{ y: 0, opacity: 1 }}
+    //             transition={{
+    //               type: "spring",
+    //               stiffness: 100,
+    //               duration: 1,
+    //               delay: 0.2,
+    //             }}
+    //           >
+    //             Tape
+    //           </motion.span>
+    //           <motion.span
+    //             initial={{ y: 50, opacity: 0 }}
+    //             animate={{ y: 0, opacity: 1 }}
+    //             transition={{
+    //               type: "spring",
+    //               stiffness: 100,
+    //               duration: 1,
+    //               delay: 0.4,
+    //             }}
+    //           >
+    //             Studio
+    //           </motion.span>
+    //         </div>
+    //         <motion.p
+    //           className="home-subtitle"
+    //           initial={{ opacity: 0 }}
+    //           animate={{ opacity: 1 }}
+    //           transition={{ delay: 1.5, duration: 2 }}
+    //         >
+    //           Crafting Stories with Creativity
+    //         </motion.p>
+    //         <motion.p
+    //           className="home-description"
+    //           initial={{ opacity: 0 }}
+    //           animate={{ opacity: 1 }}
+    //           transition={{ delay: 2.5, duration: 2 }}
+    //         >
+    //           We are a team of passionate and skilled professionals who deliver
+    //           outstanding Web designing, Digital marketing, E-commerce, Branding
+    //           Solutions, Web applications, Software Development, Mobile apps,
+    //           Corporate Video shoot, and much more.
+    //         </motion.p>
+    //       </div>
+    //     </div>
+    //   </section>
   );
 }
 

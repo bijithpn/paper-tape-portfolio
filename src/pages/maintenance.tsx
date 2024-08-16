@@ -1,4 +1,9 @@
+import React, { useEffect } from "react";
+
 function Maintenance() {
+  useEffect(() => {
+    document.title = "Paper Tape Pictures";
+  }, []);
   return (
     <div>
       <div className="error-image">
