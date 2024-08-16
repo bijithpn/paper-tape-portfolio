@@ -1,4 +1,6 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
+import Maintenance from "../pages/maintenance";
+import "../assets/css/maintenance.css";
 
 // ----------------
 
@@ -9,7 +11,8 @@ type LayoutProps = {
 function Layout({ children }: LayoutProps) {
   return (
     <div className="site-wrapper">
-      {children}
+      {/* {children} */}
+      <Maintenance />
     </div>
   );
 }
