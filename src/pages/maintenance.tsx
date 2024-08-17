@@ -10,7 +10,7 @@ function Maintenance() {
         <h1>👨‍🔧</h1>
       </div>
       <div className="error-msg-container">
-        <h1>We're working on this account now!</h1>
+        <h1>We're working on this website right now!</h1>
         <p>
           We are currently addressing the issue and working to resolve it as
           quickly as possible
