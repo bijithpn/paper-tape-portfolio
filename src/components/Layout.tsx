@@ -11,8 +11,8 @@ type LayoutProps = {
 function Layout({ children }: LayoutProps) {
   return (
     <div className="site-wrapper">
-      {/* {children} */}
-      <Maintenance />
+      {children}
+    
     </div>
   );
 }

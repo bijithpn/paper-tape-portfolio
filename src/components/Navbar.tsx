@@ -44,7 +44,7 @@ function Navbar({ isLanding }: NavbarProps) {
       <div className="menu-wrapper center-relative relative">
         <div className="header-logo">
           <RouterLink to="/">
-            <img src={logo} alt="Meelo" />
+            <img src={logo} alt="Papertape" />
           </RouterLink>
         </div>
 
@@ -83,13 +83,13 @@ function Navbar({ isLanding }: NavbarProps) {
                   )}
                 </li>
               ))}
-              {/* {navData.internalLinks.map((link, i) => (
+              {navData.internalLinks.map((link, i) => (
                 <li key={"internalLink-" + i}>
                   <RouterLink to="/blog" onClick={handleInternalLinkClick}>
                     {link.text}
                   </RouterLink>
                 </li>
-              ))} */}
+              ))}
             </ul>
           </nav>
         </div>
