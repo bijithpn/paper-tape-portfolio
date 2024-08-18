@@ -59,13 +59,21 @@ function Navbar({ isLanding }: NavbarProps) {
             <div className="third-menu-line"></div>
           </div>
         </div>
-
         <div className={`menu-holder ${navActive && "show"}`}>
           <nav id="header-main-menu">
             <ul className="main-menu sm sm-clean">
               {navData.navLinks.map((link, i) => (
                 <li key={"navlink-" + i}>
-                  {isLanding ? (
+                  {link.to.startsWith("http") ? (
+                   <a
+                   href={link.to}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   onClick={handleLinkClick}
+                   style={link.text === "Brochure" ? { fontWeight: "bold" } : {}}>
+                   {link.text}
+                 </a>
+                  ) : isLanding ? (
                     <ScrollLink
                       activeClass="active"
                       smooth
@@ -77,19 +85,19 @@ function Navbar({ isLanding }: NavbarProps) {
                       {link.text}
                     </ScrollLink>
                   ) : (
-                    <RouterLink to="/" onClick={handleLinkClick}>
+                    <RouterLink to={link.to} onClick={handleLinkClick}>
                       {link.text}
                     </RouterLink>
                   )}
                 </li>
               ))}
-              {navData.internalLinks.map((link, i) => (
+              {/* {navData.internalLinks.map((link, i) => (
                 <li key={"internalLink-" + i}>
-                  <RouterLink to="/blog" onClick={handleInternalLinkClick}>
+                  <RouterLink to={link.to} onClick={handleInternalLinkClick}>
                     {link.text}
                   </RouterLink>
                 </li>
-              ))}
+              ))} */}
             </ul>
           </nav>
         </div>
