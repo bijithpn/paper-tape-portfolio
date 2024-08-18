@@ -381,6 +381,7 @@ a.button:hover {
   height: 70px;
   border-radius: 90%;
   display: inline-block;
+  object-fit: cover;
 }
 
 .text-slide-content {
