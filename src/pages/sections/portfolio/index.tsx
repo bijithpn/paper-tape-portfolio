@@ -117,7 +117,7 @@ function Portfolio() {
                  {/* "View More Projects" Button */}
                  <div className="more-projects-button-wrapper" style={{ textAlign: 'center', marginTop: '20px' }}>
                  <RouterLink
-                   to="/portfolio"
+                   to="/blog"
                    className="more-projects-button"
                    style={{
                      display: 'inline-block',

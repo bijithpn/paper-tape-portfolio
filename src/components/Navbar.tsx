@@ -91,6 +91,13 @@ function Navbar({ isLanding }: NavbarProps) {
                   )}
                 </li>
               ))}
+              {/* {navData.internalLinks.map((link, i) => (
+                <li key={"internalLink-" + i}>
+                  <RouterLink to={link.to} onClick={handleInternalLinkClick}>
+                    {link.text}
+                  </RouterLink>
+                </li>
+              ))} */}
             </ul>
           </nav>
         </div>
