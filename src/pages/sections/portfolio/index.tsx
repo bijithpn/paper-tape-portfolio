@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 // UI Components
 import PortfolioItem1 from "./items/PortfolioItem1";
 import PortfolioItem2 from "./items/PortfolioItem2";
@@ -89,6 +90,7 @@ function Portfolio() {
 
           <div id="portfolio-wrapper">
             {portfolioItem === 0 ? (
+              <>
               <div className="grid" id="portfolio-grid">
                 <div className="grid-sizer"></div>
 
@@ -112,6 +114,27 @@ function Portfolio() {
                   </div>
                 ))}
               </div>
+                 {/* "View More Projects" Button */}
+                 <div className="more-projects-button-wrapper" style={{ textAlign: 'center', marginTop: '20px' }}>
+                 <RouterLink
+                   to="/blog"
+                   className="more-projects-button"
+                   style={{
+                     display: 'inline-block',
+                     padding: '10px 20px',
+                     fontSize: '16px',
+                     backgroundColor: '#007BFF',
+                     color: '#fff',
+                     border: 'none',
+                     borderRadius: '5px',
+                     textDecoration: 'none',
+                     cursor: 'pointer',
+                   }}
+                 >
+                   View More Projects
+                 </RouterLink>
+               </div>
+              </>
             ) : (
               <div className="portfolio-load-content-holder">
                 <div className="close-icon" onClick={handlCloseItem}>

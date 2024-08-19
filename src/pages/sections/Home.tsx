@@ -12,7 +12,54 @@ import { Link as ScrollLink } from "react-scroll";
 
 function Home() {
   return (
-    <></>
+   
+ <section id="home" className="section no-page-title">
+ {/* <div className="section-wrapper block content-1170 center-relative"> */}
+ {/* <div className="content-wrapper">
+      <h1
+        className="entry-title big-title"
+        dangerouslySetInnerHTML={{
+          __html: markdownToHTML(homeData.welcomeText),
+        }}
+      />
+      <p
+        className="site-description"
+        dangerouslySetInnerHTML={{
+          __html: markdownToHTML(homeData.description),
+        }}
+      />
+      <br />
+    </div> */}
+ {/* </div> */}
+ <div
+   className="home-full-width"
+   style={{
+     backgroundImage: `url(${mainImage01})`,
+     backgroundRepeat: "no-repeat",
+     backgroundSize: "cover",
+     backgroundPosition: "center center",
+     height: "100vh",
+   }}
+ >
+   <img className="dots" src={dots} alt="Dots" />
+   {/* <ScrollLink
+      className="button home-button"
+      smooth
+      to={"contact"}
+      offset={-77}
+    >
+      CONTACT US
+    </ScrollLink> */}
+   <div className="home-full-width-background">
+     <img
+       className="logo-icon"
+       src={iconLogo}
+       alt="Meelo Icon"
+       height="40vh"
+     />
+   </div>
+ </div>
+</section>
     //   <section className="home-screen">
     //     <div className="home-overlay">
     //       <div className="home-content">
@@ -76,50 +123,3 @@ function Home() {
 
 export default Home;
 
-//  <section id="home" className="section no-page-title">
-//    {/* <div className="section-wrapper block content-1170 center-relative"> */}
-//    {/* <div className="content-wrapper">
-//         <h1
-//           className="entry-title big-title"
-//           dangerouslySetInnerHTML={{
-//             __html: markdownToHTML(homeData.welcomeText),
-//           }}
-//         />
-//         <p
-//           className="site-description"
-//           dangerouslySetInnerHTML={{
-//             __html: markdownToHTML(homeData.description),
-//           }}
-//         />
-//         <br />
-//       </div> */}
-//    {/* </div> */}
-//    <div
-//      className="home-full-width"
-//      style={{
-//        backgroundImage: `url(${mainImage01})`,
-//        backgroundRepeat: "no-repeat",
-//        backgroundSize: "cover",
-//        backgroundPosition: "center center",
-//        height: "100vh",
-//      }}
-//    >
-//      <img className="dots" src={dots} alt="Dots" />
-//      {/* <ScrollLink
-//         className="button home-button"
-//         smooth
-//         to={"contact"}
-//         offset={-77}
-//       >
-//         CONTACT US
-//       </ScrollLink> */}
-//      <div className="home-full-width-background">
-//        <img
-//          className="logo-icon"
-//          src={iconLogo}
-//          alt="Meelo Icon"
-//          height="40vh"
-//        />
-//      </div>
-//    </div>
-//  </section>;

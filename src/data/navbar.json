@@ -28,7 +28,12 @@
     {
       "to": "contact",
       "text": "Contact"
+    },
+    {
+      "to": "https://drive.google.com/file/d/1BWTMY1_OME4nwwZQkBrQFMK5hYdXXpPb/view?usp=sharing",
+      "text": "Brochure"
     }
+
   ],
 
   "internalLinks": [
