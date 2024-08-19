@@ -10,8 +10,12 @@ import logo8 from '../../assets/images/logo/logos -08.png';
 import logo9 from '../../assets/images/logo/logos -09.png';
 import logo10 from '../../assets/images/logo/logos -10.png';
 import logo11 from '../../assets/images/logo/logo terracon copy.png';
+import logo12 from '../../assets/images/logo/logos-12.png';
+import logo13 from '../../assets/images/logo/logos-13.png';
+import logo14 from '../../assets/images/logo/logo-14.png';
+import logo15 from '../../assets/images/logo/logos-15.png';
 
-const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10, logo11];
+const logos = [logo1, logo2,logo13, logo3, logo4, logo5, logo6,logo12, logo7, logo8, logo9,logo14, logo10, logo11,  logo15, ];
 
 // Define props for Slide, including children
 interface SlideProps {
@@ -45,7 +49,7 @@ interface SliderProps {
 
 const Slider: FC<SliderProps> = ({
   width = "200px",
-  duration = 40,
+  duration = 200,
   toRight = false,
   pauseOnHover = false,
   blurBorders = false,
@@ -61,7 +65,7 @@ const Slider: FC<SliderProps> = ({
           transform: translateX(0);
         }
         100% {
-          transform: translateX(-${3000}px);
+          transform: translateX(-${10000}px);
         }
       }
     `;
@@ -88,6 +92,16 @@ const Slider: FC<SliderProps> = ({
           </Slide>
         ))}
         {logos.map((logo, index) => (
+          <Slide key={`duplicate-${index}`} width={width}>
+            <img src={logo} alt={`Logo ${index + 1}`} style={{ width }} />
+          </Slide>
+        ))}
+        {logos.map((logo, index) => (
+          <Slide key={`duplicate-${index + logos.length}`} width={width}>
+            <img src={logo} alt={`Logo ${index + 1}`} style={{ width }} />
+          </Slide>
+        ))}
+           {logos.map((logo, index) => (
           <Slide key={`duplicate-${index}`} width={width}>
             <img src={logo} alt={`Logo ${index + 1}`} style={{ width }} />
           </Slide>
