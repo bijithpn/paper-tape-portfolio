@@ -1,6 +1,5 @@
-
-import React, { useState } from 'react';
-import { projects } from '../../data/projects'; 
+import React, { useEffect, useState } from 'react';
+import { projects } from '../../data/projects';
 
 function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -8,10 +7,12 @@ function Portfolio() {
   const categories = ['All', ...new Set(projects.flatMap(project => project.category))];
 
   const filteredProjects = selectedCategory === 'All'
-    ? projects .sort(() => Math.random() - 0.5)
+    ? projects.sort(() => Math.random() - 0.5)
     : projects.filter(project => project.category.includes(selectedCategory));
 
-    //
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
 
   return (
     <div>

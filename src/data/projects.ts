@@ -59,7 +59,7 @@ export const projects = [
     id: 1,
     category: '3D',
     image: Project3D1,
-    title: '3D Project 1',
+    title: 'Headphone',
     description: 'This is a 3D project.'
   },
   {

@@ -10,7 +10,9 @@ import {
   faTwitter,
   faBehance,
   faDribbble,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { faX } from "@fortawesome/free-solid-svg-icons";
 
 // ---------------
 
@@ -23,7 +25,7 @@ function Footer() {
         </div> */}
 
         <div className="footer-mail">
-          <a href="mailto:Hello@Papertape.io">Hello@Papertape.io</a>
+          <a href="mailto:hello@papertape.io">hello@papertape.io</a>
         </div>
 
         <div className="footer-phone">
@@ -32,7 +34,7 @@ function Footer() {
 
         <div className="social-holder">
           <a href="#">
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faX} />
           </a>
           <a href="#">
             <FontAwesomeIcon icon={faFacebookF} />
@@ -40,8 +42,8 @@ function Footer() {
           <a href="#">
             <FontAwesomeIcon icon={faBehance} />
           </a>
-          <a href="#">
-            <FontAwesomeIcon icon={faDribbble} />
+          <a href="https://www.instagram.com/papertape_pictures/?igsh=MW40b2dwbTk3NnE1">
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
 
