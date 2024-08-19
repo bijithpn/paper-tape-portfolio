@@ -10,7 +10,7 @@ import logo8 from '../../assets/images/logo/logos -08.png';
 import logo9 from '../../assets/images/logo/logos -09.png';
 import logo10 from '../../assets/images/logo/logos -10.png';
 import logo11 from '../../assets/images/logo/logo terracon copy.png';
-import logo12 from '../../assets/images/logo/logos-12.png';
+import logo12 from '../../assets/images/logo/logo-12.png';
 import logo13 from '../../assets/images/logo/logos-13.png';
 import logo14 from '../../assets/images/logo/logo-14.png';
 import logo15 from '../../assets/images/logo/logos-15.png';
