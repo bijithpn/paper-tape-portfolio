@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // Sections
 import HomeSection from "./sections/Home";
@@ -15,6 +17,7 @@ import Team from "./sections/Team";
 import Milestones from "./sections/Milestones";
 import About from "./sections/About";
 import Pricing from "./sections/Pricing";
+import Slider from "./sections/ClientLogoScroll";
 
 // -------------------
 
@@ -41,6 +44,7 @@ function Landing() {
       {loading ? <Loader fadeOffLoader={fadeOffLoader} /> : <></>}
       <div id="content" className="site-content center-relative">
         <HomeSection />
+        <Slider />
         <Services />
         <Portfolio />
         <Clients />
