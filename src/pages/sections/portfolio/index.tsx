@@ -91,49 +91,52 @@ function Portfolio() {
           <div id="portfolio-wrapper">
             {portfolioItem === 0 ? (
               <>
-              <div className="grid" id="portfolio-grid">
-                <div className="grid-sizer"></div>
+                <div className="grid" id="portfolio-grid">
+                  <div className="grid-sizer"></div>
 
-                {portfolioData.portfolioItems.map((item, i) => (
-                  <div
-                    key={"portfolio-item-" + i}
-                    id="p-item-1"
-                    className={`grid-item element-item ${item.className}`}
-                  >
-                    <a
-                      className="item-link ajax-portfolio"
-                      style={{ position: "relative" }}
-                      // onClick={() => handleOpenItem(item.order + 1)}
+                  {portfolioData.portfolioItems.map((item, i) => (
+                    <div
+                      key={"portfolio-item-" + i}
+                      id="p-item-1"
+                      className={`grid-item element-item ${item.className}`}
                     >
-                      <img src={images[i]} alt="" />
-                      <div className="portfolio-text-holder">
-                        <p className="portfolio-desc">{item.info.desc}</p>
-                        <p className="portfolio-title">{item.info.title}</p>
-                      </div>
-                    </a>
-                  </div>
-                ))}
-              </div>
-                 {/* "View More Projects" Button */}
-                 <div className="more-projects-button-wrapper" style={{ textAlign: 'center', marginTop: '20px' }}>
-                 <RouterLink
-                   to="/portfolio"
-                   className="more-projects-button"
-                   style={{
-                     display: 'inline-block',
-                     padding: '10px 20px',
-                     fontSize: '16px',
-                     backgroundColor: '#007BFF',
-                     color: '#fff',
-                     border: 'none',
-                     borderRadius: '5px',
-                     textDecoration: 'none',
-                     cursor: 'pointer',
-                   }}
-                 >
-                   View More Projects
-                 </RouterLink>
-               </div>
+                      <a
+                        className="item-link ajax-portfolio"
+                        style={{ position: "relative" }}
+                        // onClick={() => handleOpenItem(item.order + 1)}
+                      >
+                        <img src={images[i]} alt="" />
+                        <div className="portfolio-text-holder">
+                          <p className="portfolio-desc">{item.info.desc}</p>
+                          <p className="portfolio-title">{item.info.title}</p>
+                        </div>
+                      </a>
+                    </div>
+                  ))}
+                </div>
+                {/* "View More Projects" Button */}
+                <div
+                  className="more-projects-button-wrapper"
+                  style={{ textAlign: "center", marginTop: "20px" }}
+                >
+                  <RouterLink
+                    to="/portfolio"
+                    className="more-projects-button"
+                    style={{
+                      display: "inline-block",
+                      padding: "10px 20px",
+                      fontSize: "16px",
+                      backgroundColor: "#dc6041",
+                      color: "#fff",
+                      border: "none",
+                      borderRadius: "5px",
+                      textDecoration: "none",
+                      cursor: "pointer",
+                    }}
+                  >
+                    View More Projects
+                  </RouterLink>
+                </div>
               </>
             ) : (
               <div className="portfolio-load-content-holder">
