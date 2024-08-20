@@ -50,7 +50,7 @@ import ProjectFs11 from "../assets/images/project/photoshoot/Papertape-11.jpg";
 import ProjectFs12 from "../assets/images/project/photoshoot/Papertape-12.jpg";
 
 import ProjectIn1 from "../assets/images/project/interior/Papertape-01.jpg";
-import ProjectIn2 from "../assets/images/project/interior/Papertape-05.jpg";
+// import ProjectIn2 from "../assets/images/project/interior/Papertape-05.jpg";
 export const projects = [
   {
     id: 1,
@@ -355,7 +355,7 @@ export const projects = [
   {
     id: 47,
     category: "Interior Design",
-    image: ProjectIn2,
+    image: ProjectIn1,
     title: "Cafe interiror design & construction",
     description:
       "TA stylish and inviting café design featuring natural materials and modern elements, creating a cozy ambiance.",
