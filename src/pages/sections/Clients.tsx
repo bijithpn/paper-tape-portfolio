@@ -26,7 +26,7 @@ import navRight from "../../assets/images/nav_right.png";
 function Clients() {
   const images: string[] = [
     reviewerImg1,
-    reviewerImg2,
+    // reviewerImg2,
     reviewerImg3,
     reviewerImg4,
     reviewerImg5,
